@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sync-adapter xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accountType="example.fussen.daemon"
+    android:allowParallelSyncs="false"
+    android:contentAuthority="example.fussen.daemon.provider"
+    android:isAlwaysSyncable="true"
+    android:supportsUploading="false"
+    android:userVisible="true" />
+
+
+<!--
+
+
+    //账户是否在“系统设置”中可见
+    android:userVisible="false"
+
+    //是否支持上传数据
+    android:supportsUploading="false"
+
+    //是否允许SyncAdapter多实例同时运行，如果应用需要支持多账号并发传输时才使用此标识，如果没有并发的数据传输则此标识无效
+    android:allowParallelSyncs="false"
+
+    //framework是否可以在任意时刻运行SyncAdapter，如果仅希望通过程序控制同步发起，则设为false，然后通过调用``requestSync()``发起。
+    android:isAlwaysSyncable="true"/>
+
+
+    -->
